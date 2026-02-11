@@ -7,9 +7,16 @@
 
 body{
     align-items: center;
+    background: yellow;
     display: flex;
     height: 100vh;
     justify-content: center;
+}
+
+.all{
+    background: white;
+    border-radius: 23px;
+    padding: 40px;
 }
 
 .div-1{
@@ -48,12 +55,20 @@ body{
 
 .div-2{
     background: hsl(211, 68%, 94%);
-    border: 1px solid turquoise;
+    /* border: 1px solid turquoise; */
     border-radius: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
     padding: 10px;
 }
 
 .div-2i{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-2ii{
     align-items: center;
     /* border: 1px solid burlywood; */
     display: flex;
@@ -63,8 +78,36 @@ body{
     /* width: 100%; */
 }
 
-.div-2 p{
+.when{
     color: hsl(219, 14%, 63%);
+}
+.div-3{
+    background: hsl(211, 68%, 94%);
+    /* border: 1px solid turquoise; */
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+    padding: 10px;
+}
+
+.div-3i{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-3ii{
+    align-items: center;
+    /* border: 1px solid burlywood; */
+    display: flex;
+    /* flex-direction: row; */
+    gap: 7px;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+}
+
+.p-image{
+    width: 40px;
 }
 
 .name{
@@ -79,4 +122,10 @@ body{
 .post{
     color: hsl(219, 12%, 42%);
     font-weight: 700;
+}
+
+.three-unread{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
