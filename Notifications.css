@@ -1,5 +1,82 @@
 * {
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.div-1{
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    padding: 4px;
+}
+.div-1i{
+    align-items: center;
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+}
+
+.div-1 p{
+    /* border: 1px solid black; */
+    color: hsl(219, 12%, 42%);
+}
+
+.div-1i div{
+    background: hsl(219, 85%, 26%);
+    border-radius: 5px;
+    color: white;
+    padding: 1px 11px;
+}
+
+.unread{
+    background: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.div-2{
+    background: hsl(211, 68%, 94%);
+    border: 1px solid turquoise;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.div-2i{
+    align-items: center;
+    /* border: 1px solid burlywood; */
+    display: flex;
+    /* flex-direction: row; */
+    gap: 7px;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+}
+
+.div-2 p{
+    color: hsl(219, 14%, 63%);
+}
+
+.name{
+    font-weight: 700;
+}
+
+.activity{
+    color: hsl(219, 12%, 42%);
+    font-weight: 500;
+}
+
+.post{
+    color: hsl(219, 12%, 42%);
+    font-weight: 700;
 }
