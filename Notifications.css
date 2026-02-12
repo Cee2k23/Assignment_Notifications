@@ -15,16 +15,20 @@ body{
 
 .all{
     background: white;
+    /* border: 1px solid black; */
     border-radius: 23px;
     padding: 40px;
 }
 
 .div-1{
+    align-items: center;
     /* border: 1px solid black; */
     display: flex;
     /* flex-direction: row; */
-    justify-content: space-between;
-    padding: 4px;
+    gap: 400px;
+    /* justify-content: space-between; */
+    padding: 23px 0;
+    /* width: 100%; */
 }
 .div-1i{
     align-items: center;
@@ -37,6 +41,8 @@ body{
 .div-1 p{
     /* border: 1px solid black; */
     color: hsl(219, 12%, 42%);
+    display: flex;
+    /* justify-content: end; */
 }
 
 .div-1i div{
@@ -59,8 +65,9 @@ body{
     border-radius: 10px;
     display: flex;
     /* flex-direction: row; */
-    gap: 10px;
+    /* gap: 10px; */
     padding: 10px;
+    /* width: 50%; */
 }
 
 .div-2i{
@@ -125,6 +132,7 @@ body{
 }
 
 .three-unread{
+    border: 1px solid burlywood;
     display: flex;
     flex-direction: column;
     gap: 7px;
