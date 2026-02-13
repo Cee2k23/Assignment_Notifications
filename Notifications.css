@@ -9,7 +9,7 @@ body{
     align-items: center;
     background: yellow;
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     justify-content: center;
 }
 
@@ -17,7 +17,8 @@ body{
     background: white;
     /* border: 1px solid black; */
     border-radius: 23px;
-    padding: 40px;
+    padding: 29px;
+    width: 50%;
 }
 
 .div-1{
@@ -25,8 +26,8 @@ body{
     /* border: 1px solid black; */
     display: flex;
     /* flex-direction: row; */
-    gap: 400px;
-    /* justify-content: space-between; */
+    /* gap: 400px; */
+    justify-content: space-between;
     padding: 23px 0;
     /* width: 100%; */
 }
@@ -65,19 +66,20 @@ body{
     border-radius: 10px;
     display: flex;
     /* flex-direction: row; */
-    /* gap: 10px; */
+    gap: 10px;
     padding: 10px;
     /* width: 50%; */
 }
 
 .div-2i{
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
 }
 
 .div-2ii{
     align-items: center;
-    /* border: 1px solid burlywood; */
+    /* border: 1px solid black; */
     display: flex;
     /* flex-direction: row; */
     gap: 7px;
@@ -99,13 +101,14 @@ body{
 }
 
 .div-3i{
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
 }
 
 .div-3ii{
     align-items: center;
-    /* border: 1px solid burlywood; */
+    /* border: 1px solid black; */
     display: flex;
     /* flex-direction: row; */
     gap: 7px;
@@ -113,7 +116,143 @@ body{
     /* width: 100%; */
 }
 
+.div-4{
+    background: hsl(211, 68%, 94%);
+    /* border: 1px solid turquoise; */
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+    padding: 10px;
+}
+
+.div-4i{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-4ii{
+    align-items: center;
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction: row; */
+    gap: 7px;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+}
+
+.div-5{
+    /* background: hsl(211, 68%, 94%); */
+    /* border: 1px solid turquoise; */
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+    padding: 10px;
+}
+
+.div-5i{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-5ii{
+    align-items: center;
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction: row; */
+    gap: 7px;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+}
+
+.div-5iii{
+    /* border: 1px solid black; */
+}
+
+.div-6{
+    /* background: hsl(211, 68%, 94%); */
+    /* border: 1px solid turquoise; */
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+    padding: 10px;
+}
+
+.div-6i{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-6ii{
+    align-items: center;
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction: row; */
+    gap: 7px;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+}
+
+.div-7{
+    /* background: hsl(211, 68%, 94%); */
+    /* border: 1px solid navy; */
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+    padding: 10px;
+}
+
+.div-7i{
+    /* border: 1px solid navy; */
+    display: flex;
+    flex-direction: column;
+}
+
+.div-7ii{
+    /* align-items: center; */
+    /* border: 1px solid navy; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    font-size: 16px;
+    /* gap: 7px; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
+}
+
+.div-8{
+    /* border: 1px solid turquoise; */
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+    padding: 10px;
+}
+
+.div-8i{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-8ii{
+    align-items: center;
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction: row; */
+    gap: 7px;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+}
 .p-image{
+    /* border: 1px solid black; */
+    width: 40px;
+}
+
+.p-image-ii{
+    /* border: 1px solid black; */
+    height: 42px;
     width: 40px;
 }
 
@@ -127,12 +266,29 @@ body{
 }
 
 .post{
+    /* border: 1px solid black; */
     color: hsl(219, 12%, 42%);
     font-weight: 700;
 }
 
+.group{
+    /* border: 1px solid black; */
+    color: hsl(219, 85%, 26%);
+    font-weight: 700;
+}
+
+.message{
+    border: 1px solid hsl(219, 12%, 42%);
+    color: hsl(219, 12%, 42%);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 60px;
+    padding: 10px;
+    width: 87%;
+}
+
 .three-unread{
-    border: 1px solid burlywood;
+    /* border: 1px solid burlywood; */
     display: flex;
     flex-direction: column;
     gap: 7px;
